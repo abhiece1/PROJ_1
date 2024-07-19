@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 # DEPLOYED LINK
-proj-1-phi.vercel.app\
+www.proj-1-phi.vercel.app\
 proj-1-phb4bfq71-abhis-projects-d8d05e26.vercel.app
 
 ### Available Scripts
