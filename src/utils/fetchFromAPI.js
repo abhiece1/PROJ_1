@@ -4,12 +4,15 @@ export const BASE_URL = 'https://youtube-v31.p.rapidapi.com';
 
 const options = {
   params: {
-    maxResults: 50,
+    relatedToVideoId: '7ghhRHRP6t4',
+    part: 'id,snippet',
+    type: 'video',
+    maxResults: '50'
   },
   headers: {
-    'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-    'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com',
-  },
+    'x-rapidapi-key': '15a4c75ad8mshb704497d888a186p1fb38ejsnd21ddf164745',
+    'x-rapidapi-host': 'youtube-v31.p.rapidapi.com'
+  }
 };
 
 export const fetchFromAPI = async (url) => {
